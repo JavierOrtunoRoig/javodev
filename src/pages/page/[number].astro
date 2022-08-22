@@ -102,7 +102,7 @@ posts = posts.slice((pagination - 1) * 6, pagination * 6)
 						<li>
 							<a class="post" href={post.url}>
 								<div class="post-container">
-									<img src="/javascript.png" alt="">
+									<img src={`/icons/${post.frontmatter.imageTheme}.png`} alt="">
 									<div class="post-info-container">
 										<h2>{post.frontmatter.title}</h2>
 										<time datetime={post.frontmatter.pubDate}>

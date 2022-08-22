@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
+imageTheme:  "css"
 title: "Third post"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 15 2022"
