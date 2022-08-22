@@ -1,0 +1,54 @@
+---
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<div class="left-nav">
+			<HeaderLink href="/">Javodev</HeaderLink>
+		</div>
+		<div class="right-nav">
+			<HeaderLink href="/about">Sobre mí</HeaderLink>
+			<HeaderLink href="https://github.com/JavierOrtunoRoig" target="_blank" github>GitHub</HeaderLink>
+		</div>
+	</nav>
+	<hr class="solid">
+</header>
+<style>
+	hr.solid {
+  	border-top: 1px solid rgba(187, 187, 187, 0.537);
+		margin-top: 0px;
+	}
+	header {
+		margin: 0em 0 2em;
+		height: 50px;
+		/* background-color: #0068b8; */
+		padding: 0 10px;
+		border-radius: 50px;
+	}
+	a {
+		/* color: white; */
+		color: black;
+		transition: all .5s ease;
+		text-decoration: none !important;
+	}
+	a:hover {
+		transform: translateY(-2px);
+	}
+	h2 {
+		margin: 0.5em 0;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+	}
+	.left-nav {
+		display: flex;
+		align-items: center;
+	}
+	.right-nav {
+		display: flex;
+		align-items: center;
+	}
+</style>

@@ -1,0 +1,128 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../config';
+
+export async function getStaticPaths() {
+
+  const posts = await Astro.glob('../blog/*.{md,mdx}')
+  const numberOfPosts = posts.length
+
+  /*
+   Si hay 13 posts, se genera
+  [ { params: { number: 1 } }, { params: { number: 2 } } ]
+  */
+  return new Array(Math.ceil(numberOfPosts / 6)).fill(null).map((post, i) => {
+    return {
+      params: {
+        number: String(i + 1),
+      }
+    }
+  })
+}
+
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+let posts = (await Astro.glob('../blog/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+const numberOfPosts = posts.length
+const pagination = Number(Astro.params.number)
+const leftPosts = Math.ceil(numberOfPosts / 6) > pagination
+posts = posts.slice((pagination - 1) * 6, pagination * 6)
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			h3 {
+				color: #222!important;
+			}
+			ul {
+				list-style-type: none;
+				padding: unset;
+			}
+			li {
+				display: flex;
+				align-items: center;
+				transition: all 0.2s ease;
+			}
+			li:hover {
+				border-radius: 10px;
+				background-color: #eee;
+			}
+			li h2{
+				transition: all 0.2s ease;
+			}
+			li:hover h2{
+				color: #0068b8 !important;
+			}
+			li img{
+				transition: all 0.4s ease;
+			}
+			li:hover img{
+				transform: scale(1.12);
+			}
+			ul li {
+				display: flex;
+				padding: 10px;
+			}
+			ul li img {
+				max-width: 50px;
+			}
+			ul li time {
+				flex: 0 0 130px;
+				color: #888;
+				font-size: 12px;
+			}
+			.post {
+				text-decoration: none;
+			}
+			h2 {
+				color: #222 !important;
+				font-size: 18px;
+				font-weight: 600;
+				margin: 0px
+			}
+			.post-container {
+				display: flex;
+				gap: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h3>Últimos artículos</h3>
+			<content>
+				<ul>
+					{posts.map((post) => (
+						<li>
+							<a class="post" href={post.url}>
+								<div class="post-container">
+									<img src="/javascript.png" alt="">
+									<div class="post-info-container">
+										<h2>{post.frontmatter.title}</h2>
+										<time datetime={post.frontmatter.pubDate}>
+											{new Date(post.frontmatter.pubDate).toLocaleDateString('es-es', {
+												year: 'numeric',
+												month: 'long',
+												day: 'numeric',
+											})}
+										</time>
+									</div>
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+        {pagination > 1 && <a href={`/page/${pagination - 1}`}>Ver posts más antiguos</a>}
+        {leftPosts && <a href={`/page/${pagination + 1}`}>Ver posts más nuevos</a>}
+				
+			</content>
+		</main>
+		<Footer />
+	</body>
+</html>

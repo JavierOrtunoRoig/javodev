@@ -1,0 +1,31 @@
+---
+export interface Props extends astroHTML.JSX.AnchorHTMLAttributes {
+	github?: Boolean
+}
+
+const { href, github, class: className, ...props } = Astro.props as Props;
+const isActive = href === Astro.url.pathname;
+---
+
+<a href={href} class:list={[className, { active: isActive }]} {...props}>
+	{
+		github
+		? <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+		:	<slot />
+	}
+</a>
+<style>
+	a {
+		display: inline-block;
+		text-decoration: none;
+	}
+	a.active {
+		font-weight: bolder;
+		text-decoration: underline;
+	}
+
+	img {
+		width: 32px;
+		height: 32px;
+	}
+</style>
