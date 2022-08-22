@@ -8,6 +8,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 let posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
+const numberOfPosts = posts.length
+const pagination = Number(Astro.params.number)
+const leftPosts = Math.ceil(numberOfPosts / 6) > pagination
 posts = posts.slice(0, 6)
 ---
 
@@ -97,8 +100,8 @@ posts = posts.slice(0, 6)
 						</li>
 					))}
 				</ul>
-				<a href="/page/2">Ver más posts</a>
-			</content>
+        {pagination > 1 && <a href={`/page/${pagination - 1}`}>Ver posts más antiguos</a>}
+        {leftPosts && <a href={`/page/${pagination + 1}`}>Ver posts más nuevos</a>}			</content>
 		</main>
 		<Footer />
 	</body>
