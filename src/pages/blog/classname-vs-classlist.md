@@ -4,6 +4,7 @@ imageTheme: "javascript"
 title: "Propiedad className VS classList API"
 description: "En este post compararemos las distintas posibilidades quenos ofrecen className y classList para manejar los estilos de un elemento"
 pubDate: "2022/08/24"
+author: "Javier Ortuño Roig"
 # heroImage: "/placeholder-hero.jpg"
 ---
 

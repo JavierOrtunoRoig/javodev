@@ -10,11 +10,12 @@ export interface Props {
 		pubDate?: string;
 		updatedDate?: string;
 		heroImage?: string;
+		author?: string
 	};
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage },
+	content: { title, description, pubDate, updatedDate, heroImage, author },
 } = Astro.props as Props;
 ---
 
@@ -52,7 +53,7 @@ const {
 					year: 'numeric',
 					month: 'long',
 					day: 'numeric',
-				})}</time>}
+				}) + " - " + author}</time>}
 				{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
 				<hr/>
 				<slot />
