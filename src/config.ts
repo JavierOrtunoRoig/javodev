@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Javier Ortuño Blog';
 export const SITE_DESCRIPTION = 'Este es un blog donde iré subiendo contenido sobre libros, trucos de programación y mucho más!!';
+export const NUMBER_POST_TO_SHOW = 6;
