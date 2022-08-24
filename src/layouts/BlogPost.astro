@@ -17,6 +17,8 @@ export interface Props {
 const {
 	content: { title, description, pubDate, updatedDate, heroImage, author },
 } = Astro.props as Props;
+
+const { minutesRead } = Astro.props.frontmatter;
 ---
 
 <html>
@@ -30,6 +32,15 @@ const {
 			hr {
 				border-top: 1px solid #DDD;
 				margin: 1rem 0;
+			}
+			.read-time {
+				margin: 0px
+			}
+
+			.info-container {
+				display: flex;
+				justify-content: space-between;
+				margin: 10px 0;
 			}
 		</style>
 	</head>
@@ -49,12 +60,15 @@ const {
 					</div>
 				)}
 				<h1 class="title">{title}</h1>
-				{pubDate && <time>{new Date(pubDate).toLocaleDateString('es-es', {
-					year: 'numeric',
-					month: 'long',
-					day: 'numeric',
-				}) + " - " + author}</time>}
-				{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
+				{}
+				<div class="info-container">
+					<time>{new Date(pubDate).toLocaleDateString('es-es', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric',
+					}) + " - " + author}</time>
+					<p class="read-time">{minutesRead}</p>	
+				</div>
 				<hr/>
 				<slot />
 			</article>

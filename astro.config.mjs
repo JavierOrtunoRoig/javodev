@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel/serverless';
 import mdx from '@astrojs/mdx';
+import { remarkReadingTime } from './remark-reading-time.mjs';
 
 import sitemap from '@astrojs/sitemap';
 
@@ -11,6 +12,7 @@ export default defineConfig({
 	output: 'server',
 	adapter: vercel(),
 	markdown: {
+		remarkPlugins: [remarkReadingTime],
 		shikiConfig: {
       theme: 'one-dark-pro',
     }
