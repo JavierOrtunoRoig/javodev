@@ -50,6 +50,16 @@ table {
 	justify-content: center;
 	align-items: center;
 }
+.thumbnail-container-about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.thumbnail-container-about > img {
+	max-width: 25%;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+}
 img {
 	max-width: 100%;
 	height: auto;
