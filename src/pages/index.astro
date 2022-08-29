@@ -73,6 +73,13 @@ posts = posts.slice(0, NUMBER_POST_TO_SHOW)
 				display: flex;
 				gap: 10px;
 			}
+
+			.selfie {
+				border-radius: 50%;
+				max-height: 50px;
+				max-width: 50px;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -85,7 +92,11 @@ posts = posts.slice(0, NUMBER_POST_TO_SHOW)
 						<li>
 							<a class="post" href={post.url}>
 								<div class="post-container">
-									<img src={`/icons/${post.frontmatter.imageTheme}.png`} alt={`${post.frontmatter.imageTheme}`}>
+									<img
+										src={`/icons/${post.frontmatter.imageTheme}`}
+										alt={`${post.frontmatter.imageTheme}`}
+										class={post.frontmatter.imageTheme.includes("selfie") && "selfie"}
+									>
 									<div class="post-info-container">
 										<h2>{post.frontmatter.title}</h2>
 										<time datetime={post.frontmatter.pubDate}>

@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-imageTheme: "javascript"
+imageTheme: "javascript.png"
 title: "Propiedad className VS classList API"
 description: "En este post compararemos las distintas posibilidades quenos ofrecen className y classList para manejar los estilos de un elemento"
 pubDate: "2022/08/24"
