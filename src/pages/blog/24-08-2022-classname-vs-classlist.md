@@ -2,26 +2,28 @@
 layout: "../../layouts/BlogPost.astro"
 imageTheme: "javascript.png"
 title: "Propiedad className VS classList API"
-description: "En este post compararemos las distintas posibilidades quenos ofrecen className y classList para manejar los estilos de un elemento"
+description: "En este post compararemos las distintas posibilidades que nos ofrecen className y classList para manejar los estilos de un elemento"
 pubDate: "2022/08/24"
 author: "Javier Ortuño Roig"
 # heroImage: "/placeholder-hero.jpg"
 ---
 
-Aunque en los últimos años se han extendido diversas librerías y framework que facilitan el manejo del comportamiento y estilos de nuestras web, aún son mucho los proyectos que no usan alguna de estas tecnologías o personas que deciden crear su página web con javascript vanilla. En este post **vamos a comparar dos formas de manejar los estilos de un elemento** desde el propio javascript.
+Aunque en los últimos años se han extendido diversas librerías y framework que facilitan el manejo del comportamiento y estilos de nuestras web, aún son mucho los proyectos que no usan alguna de estas tecnologías o personas que deciden crear su página web con JavaScript vanilla. En este post **vamos a comparar dos formas de manejar los estilos de un elemento** desde el propio JavaScript.
 
 Imaginad que tenemos un **div** que contiene dos estilos:
+
 * La **clase rounded** indica si el elemento tiene bordes redondeados o no.
 * La **clase light-theme** indica el tema del componente. Puede ser light-theme y dark-theme.
 
 El HTML tendría el siguiente aspecto.
+
 ```html
 <div class="rounded light-theme"></div>
 ```
 
 ## className
 
-El **manejo de los estilos** usando [className](https://developer.mozilla.org/es/docs/Web/API/Element/className) es bastante **limitado** y nos supondrá una carga de trabajo para poder simular algunas funciones básicas que podrán falicitarnos el trabajo a largo plazo.
+El **manejo de los estilos** usando [className](https://developer.mozilla.org/es/docs/Web/API/Element/className) es bastante **limitado** y nos supondrá una carga de trabajo para poder simular algunas funciones básicas que podrán facilitarnos el trabajo a largo plazo.
 
 ```javascript
 const div = document.querySelector('div')
@@ -32,11 +34,11 @@ console.log(estilos) // 'rounded light-theme'
 // Podemos cambiar los estilos del elemento sustituyendo un string por otro
 div.className = 'rounded dark-theme'
 
-// Para manejar los estilos más facilemnte primero los convertiremos en una lista
+// Para manejar los estilos más fácilmente primero los convertiremos en una lista
 let listaEstilos = estilos.split(" ")
 console.log(listaEstilos) // ['rounded', 'light-theme']
 
-// Lenght
+// Length
 console.log(listaEstilos.length) // 2
 
 // Obtener una clase en específico
@@ -65,11 +67,12 @@ console.log(listaEstilos) // ['light-theme', 'rounded']
 // Después de acabar con los cambios que se quieran realizar se ha de modificar de nuevo el elemento
 div.className = listaEstilos.join(' ')
 ```
+
 Como se puede observar arriba el manejo de los estilos no es tan directo como podría ser ya que nos obliga a hacer una serie de transformaciones que, aunque fáciles, se pueden hacer un poco pesada.
 
 ## classList
 
-A parte de manejar de forma directa un string con los estilos de los elementos, también tenemos la posibilidad de usar la API de [classList](https://developer.mozilla.org/es/docs/Web/API/Element/classList). Con esta API podremos menejar los estilos como una lista y nos permite hacer de una forma fácil y rápida todos los métodos implementados en el código de className. Cabe destacar que no nos devuelve un array, sino un [DOMTokenList](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList) el cual es bastante parecido a un array, pero implementa una serie de métodos para manejar los estilos de nuestro elemento.
+A parte de manejar de forma directa un string con los estilos de los elementos, también tenemos la posibilidad de usar la API de [classList](https://developer.mozilla.org/es/docs/Web/API/Element/classList). Con esta API podremos manejar los estilos como una lista y nos permite hacer de una forma fácil y rápida todos los métodos implementados en el código de className. Cabe destacar que no nos devuelve un array, sino un [DOMTokenList](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList) el cual es bastante parecido a un array, pero implementa una serie de métodos para manejar los estilos de nuestro elemento.
 
 ```javascript
 const div = document.querySelector('div')
