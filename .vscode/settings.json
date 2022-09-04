@@ -1,0 +1,41 @@
+{
+  "cSpell.words": [
+    "Ganbarimasu",
+    "ikigai",
+    "Ikigai",
+    "Midudev",
+    "Miralles",
+    "Ogimi",
+    "Senpai",
+    "Shinkansen",
+    "Youtube"
+  ],
+  "cSpell.ignoreWords": [
+    "Enso",
+    "Ganbarimasu",
+    "Gasshuku",
+    "Ise",
+    "Kaizen",
+    "Kyudo",
+    "Nightshift",
+    "Toshogu",
+    "midu"
+  ],
+  "cSpell.enableFiletypes": [
+    "mdx"
+  ],
+  "spellright.language": [
+    "en",
+    "es"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "mdx"
+  ],
+  "spellright.parserByClass": {
+    "mdx": {
+      "parser": "markdown"
+    }
+  }
+}
