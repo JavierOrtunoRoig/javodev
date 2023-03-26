@@ -1,13 +1,15 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "https://javodev.vercel.app/",
+  author: "Javier Ortuño Roig",
+  desc: `¡Bienvenido a mi blog! Mi nombre es Javier Ortuño Roig, tengo 23 años y soy Ingeniero del Software y tengo un máster en Desarrollo Web💻. Actualmente me encuentro en Ericcson como Frontend Software Developer.
+
+  Mi objetivo con este blog es poder compartir algunos de mis conocimientos con los demás, intentaré subir tips de programación, explicaciones diversos temas que tenga que ver con lenguajes o librerías, reviews de libros que me lea y crea que pueda aportar algo en el mundo laboral y en general cualquier cosa que me parezca que puede ser interesante compartir con los demás😄.`,
+  title: "Javodev",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 6,
 };
 
 export const LOGO_IMAGE = {
@@ -20,7 +22,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/JavierOrtunoRoig",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -28,17 +30,17 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/javier-ortu%C3%B1o-roig/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
