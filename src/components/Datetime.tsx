@@ -40,7 +40,6 @@ const FormattedDatetime = ({ datetime }: { datetime: string | Date }) => {
     minute: "2-digit",
   });
   
-  console.log(SITE);
   return (
     <>
       {date}
