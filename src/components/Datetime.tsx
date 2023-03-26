@@ -1,3 +1,4 @@
+import { SITE } from '@utils/../config';
 export interface Props {
   datetime: string | Date;
   size?: "sm" | "lg";
@@ -27,7 +28,7 @@ export default function Datetime({ datetime, size = "sm", className }: Props) {
 
 const FormattedDatetime = ({ datetime }: { datetime: string | Date }) => {
   const myDatetime = new Date(datetime);
-
+  const showHours = SITE.hoursInTheDate;
   const date = myDatetime.toLocaleDateString([], {
     year: "numeric",
     month: "long",
@@ -38,13 +39,14 @@ const FormattedDatetime = ({ datetime }: { datetime: string | Date }) => {
     hour: "2-digit",
     minute: "2-digit",
   });
-
+  
+  console.log(SITE);
   return (
     <>
       {date}
-      <span aria-hidden="true"> | </span>
+      {showHours && <span aria-hidden="true"> | </span>}
       <span className="sr-only">&nbsp;at&nbsp;</span>
-      {time}
+      {showHours && time}
     </>
   );
 };

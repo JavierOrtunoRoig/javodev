@@ -10,6 +10,7 @@ export const SITE: Site = {
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
+  hoursInTheDate: false,
 };
 
 export const LOGO_IMAGE = {

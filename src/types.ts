@@ -6,6 +6,7 @@ export type Site = {
   ogImage: string;
   lightAndDarkMode: boolean;
   postPerPage: number;
+  hoursInTheDate: boolean;
 };
 
 export type SocialObjects = {
