@@ -1,5 +1,0 @@
-{
-  "build": {
-    "command": "npm install @resvg/resvg-js-linux-x64-gnu"
-  }
-}
