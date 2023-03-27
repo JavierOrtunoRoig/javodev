@@ -1,37 +1,37 @@
 ---
 author: Javier Ortuño Roig
 pubDatetime: 2022-08-29
-title: Review y resumen del libro \"El método Ikigai\" de Francesc Miralles y Héctor García
-postSlug: review-y-resumen-del-libro-\"El-método-Ikigai\"-de-Francesc-Miralles-y-Héctor-García
+title: Review y resumen del libro El método Ikigai de Francesc Miralles y Héctor García
+postSlug: review-y-resumen-del-libro-El-método-Ikigai-de-Francesc-Miralles-y-Héctor-García
 featured: false
 draft: false
 tags:
   - Self-development
-description: "Review y resumen del libro \"El método Ikigai: Despierta tu verdadera pasión y cumple tus propósitos vitales (Inspiración y creatividad)\" de Francesc Miralles y Héctor García"
+description: 'Review y resumen del libro "El método Ikigai: Despierta tu verdadera pasión y cumple tus propósitos vitales (Inspiración y creatividad)" de Francesc Miralles y Héctor García'
 ---
 
-Hace un par de semanas, a raíz de un post de Miguel Ángel Durán (Midudev)<span style="font-size: 12px; position: relative; top: -10px">[[1]](#midu)</span> me compré el libro de ***"El método Ikigai"*** de <u>Francesc Miralles</u> y <u>Héctor García</u>. ¿Qué significa **ikigai**? Es una palabra japones que no tiene una traducción literal iki (生き), <u>que se refiere a la vida</u>, y kai (甲斐) que aproximadamente significa <u>&#171;la realización de lo que uno espera y desea&#187;</u>. En 2016 estos mismos autores publicaron ***"Ikigai: Los secretos de Japón para una vida larga y feliz (Medicinas complementarias)"*** un libro que explicaba lo que era el ikigai para los japoneses a través de entrevistas que hicieron a los habitantes de Ogimi (Okinawa), la localidad on índice de longevidad más alta del mundo. 
+Hace un par de semanas, a raíz de un post de Miguel Ángel Durán (Midudev)<span style="font-size: 12px; position: relative; top: -10px">[[1]](#midu)</span> me compré el libro de **_"El método Ikigai"_** de <u>Francesc Miralles</u> y <u>Héctor García</u>. ¿Qué significa **ikigai**? Es una palabra japones que no tiene una traducción literal iki (生き), <u>que se refiere a la vida</u>, y kai (甲斐) que aproximadamente significa <u>&#171;la realización de lo que uno espera y desea&#187;</u>. En 2016 estos mismos autores publicaron **_"Ikigai: Los secretos de Japón para una vida larga y feliz (Medicinas complementarias)"_** un libro que explicaba lo que era el ikigai para los japoneses a través de entrevistas que hicieron a los habitantes de Ogimi (Okinawa), la localidad on índice de longevidad más alta del mundo.
 
 Para esta edición los autores han decidido traernos un libro más práctico con el objetivo de que podamos encontrar nuestro propio ikigai.
 
 ## Sobre los autores
 
-* [Héctor García](https://www.kirainet.com/): Ingeniero y escritor que lleva desde 2004 viviendo en japón y que ha sacado ya varios libros sobre japón
-* [Francesc Miralles](https://www.francescmiralles.com/): Francesc Miralles es un experto de alcance mundial en todo lo referente al desarrollo personal y la espiritualidad. Tras iniciarse como editor de estos géneros, ha escrito decenas de libros de gran impacto internacional, además de acompañar a otros autores y de descubrir nuevas tendencias.
+- [Héctor García](https://www.kirainet.com/): Ingeniero y escritor que lleva desde 2004 viviendo en japón y que ha sacado ya varios libros sobre japón
+- [Francesc Miralles](https://www.francescmiralles.com/): Francesc Miralles es un experto de alcance mundial en todo lo referente al desarrollo personal y la espiritualidad. Tras iniciarse como editor de estos géneros, ha escrito decenas de libros de gran impacto internacional, además de acompañar a otros autores y de descubrir nuevas tendencias.
 
 ## Contenido
 
 Cada capítulo del libro es una parada de tren y desde que empecemos a leer será como subirnos a un tren con 33 paradas que recorrerán nuestro pasad, presente y futuro.
 
-* **El futuro - Tokio:** Se presenta el poderoso efecto Shinkansen y otras herramientas para acelerar nuestros éxitos en la vida. ¿Es posible conseguir en un mes aquello que nos hemos propuesto hacer en un año?
+- **El futuro - Tokio:** Se presenta el poderoso efecto Shinkansen y otras herramientas para acelerar nuestros éxitos en la vida. ¿Es posible conseguir en un mes aquello que nos hemos propuesto hacer en un año?
 
-* **El pasado - Kioto:** Los buenos momentos nos dan felicidad y autoestima; los malos, lecciones que pueden ser muy útiles para nuestro futuro. ¿Cómo convertir nuestras experiencias en faros que iluminen nuestra vida?
+- **El pasado - Kioto:** Los buenos momentos nos dan felicidad y autoestima; los malos, lecciones que pueden ser muy útiles para nuestro futuro. ¿Cómo convertir nuestras experiencias en faros que iluminen nuestra vida?
 
-* **El presente - Ise:** Una vez aprendemos del pasado y proyectamos nuestro futuro, el presente es el vehículo en el que se decide, momento a momento, nuestra existencia. ¿Cómo podemos vivirlo con lucidez y plenitud?
+- **El presente - Ise:** Una vez aprendemos del pasado y proyectamos nuestro futuro, el presente es el vehículo en el que se decide, momento a momento, nuestra existencia. ¿Cómo podemos vivirlo con lucidez y plenitud?
 
 ### Viaje por nuestro futuro
 
-#### 1º estación > Shinkansen. El pensamiento 
+#### 1º estación > Shinkansen. El pensamiento
 
 Normalmente los objetivos que nos proponemos o los objetivos que nos ponen en el trabajo suelen ser incrementales, por ejemplo, podrían pedirnos añadir una funcionalidad nueva a nuestra página web. Estos son cambios pequeños, que se pueden hacer normalmente en poco tiempo y con la que solemos seguir la ley del mínimo esfuerzo. Lo que se comenta es este primer capítulo es que debemos de ponernos un objetivo imposible, si en vez de añadir una nueva funcionalidad nos poden que la página debe ir un 200%, desplegarse un 150% y compilarse un 250% más rápido entonces no nos servirá con hacer un cambio pequeño, quizás tengamos que cambiar la tecnología con la que está hecha la página o crear una nueva tecnología que nos permita desarrollar la página con los requisitos impuesto.
 
@@ -47,11 +47,11 @@ Tenemos que intentar olvidarnos de los imposibles que tenemos en nuestra vida, p
 
 La perseverancia es uno de los valores más presentas en la población japonesa. Los japoneses tienen objetivos sencillos con los que insistirán el tiempo que haga falta, da igual el tiempo que pase, ellos preservarán para conseguir sus objetivos. También se ve la perseverancia a la hora de ser un experto en algo, según Gladwell:
 
-* Con 1 hora tendremos una introducción básica.
-* Con 10 horas logramos una noción más amplia.
-* Con 100 horas tendremos un nivel medio.
-* Con 1.000 horas seremos especialistas.
-* Con 10.000 horas seremos maestros en la materia.
+- Con 1 hora tendremos una introducción básica.
+- Con 10 horas logramos una noción más amplia.
+- Con 100 horas tendremos un nivel medio.
+- Con 1.000 horas seremos especialistas.
+- Con 10.000 horas seremos maestros en la materia.
 
 > La filosofía del Ganbarimasu es no para hasta conseguir tu objetivo.
 
@@ -67,15 +67,15 @@ El ser humano es un animal de costumbres,e n nuestro día a día tenemos varios 
 
 Tener feedback continuo es una de las claves para mejorar, ya que nos permite saber si estamos en el camino correcto o no. El feedback es el espejo de la mirada ajena, nos permite ver lo que no vemos nosotros mismos. El feedback es una herramienta muy poderosa, pero debemos de tener cuidado con el tipo de feedback que recibimos, ya que puede ser positivo o negativo. El feedback negativo es el que nos dice lo que no estamos haciendo bien, mientras que el feedback positivo es el que nos dice lo que estamos haciendo bien. El feedback negativo es el que nos ayuda a mejorar, mientras que el feedback positivo es el que nos ayuda a mantenernos en el camino correcto.
 
-Normalmente huimos del feedback negativo, nos cuesta aceptarlo. Pero si no lo aceptamos no podemos mejorar, por lo que debemos de buscar el feedback negativo, ya que es el que nos puede ayudar a dar un salto de calidad. 
+Normalmente huimos del feedback negativo, nos cuesta aceptarlo. Pero si no lo aceptamos no podemos mejorar, por lo que debemos de buscar el feedback negativo, ya que es el que nos puede ayudar a dar un salto de calidad.
 
 > El feedback es el espejo de la mirada ajena. Nos permite ver lo que no vemos nosotros mismos.
 
 #### 6º estación > Senpai. Pon un mentor (o varios) en tu vida
 
-Para mejorar en cualquier área que deseemos necesitamos debemos explorar territorios fuera de nuestra zona de confort. Para ello necesitamos un mentor, alguien que nos guíe en nuestro camino. El mentor nos puede ayudar a ver el mundo desde una perspectiva diferente, nos puede ayudar a ver lo que no vemos nosotros mismos. 
+Para mejorar en cualquier área que deseemos necesitamos debemos explorar territorios fuera de nuestra zona de confort. Para ello necesitamos un mentor, alguien que nos guíe en nuestro camino. El mentor nos puede ayudar a ver el mundo desde una perspectiva diferente, nos puede ayudar a ver lo que no vemos nosotros mismos.
 
-Un buen mentor nos permitirá extraer el máximo jugo a cada hora de práctica. Elegir un buen mentor  puede ayudarnos a mejorar áreas de nuestra vida personal, no solo a mejorar habilidades. 
+Un buen mentor nos permitirá extraer el máximo jugo a cada hora de práctica. Elegir un buen mentor puede ayudarnos a mejorar áreas de nuestra vida personal, no solo a mejorar habilidades.
 
 > El mentor es el que nos guía en nuestro camino. Nos ayuda a ver el mundo desde una perspectiva diferente.
 
@@ -87,9 +87,9 @@ Una técnica muy normal al empezar a practicar una nueva disciplina es observar 
 
 #### 8º estación > Tu elemento. A través de lo que no te gusta llegarás a lo que no te gusta
 
-En la sociedad de hoy en día es difícil encontrar a lo que uno se quiere dedicar, ya que hay tantas opciones que no sabemos por donde empezar. Para ello debemos de encontrar nuestro elemento, lo que nos apasiona, lo que nos hace sentir bien. Una vez que encontramos nuestro elemento debemos de dedicarle tiempo, ya que es lo que nos hace sentir realizados. el elemento fue definido por "Ken Robinson" como: 
+En la sociedad de hoy en día es difícil encontrar a lo que uno se quiere dedicar, ya que hay tantas opciones que no sabemos por donde empezar. Para ello debemos de encontrar nuestro elemento, lo que nos apasiona, lo que nos hace sentir bien. Una vez que encontramos nuestro elemento debemos de dedicarle tiempo, ya que es lo que nos hace sentir realizados. el elemento fue definido por "Ken Robinson" como:
 
->  El Elemento es el lugar donde las cosas que amamos hacer y las cosas en las que somos buenos se encuentran.
+> El Elemento es el lugar donde las cosas que amamos hacer y las cosas en las que somos buenos se encuentran.
 >
 > -- Ken Robinson
 
@@ -99,19 +99,19 @@ Benjamin Franklin estuve desde su juventud potenciando 13 virtudes que se listar
 
 Las trece virtudes:
 
-* **Templanza:** No comer hasta la saciedad, no beber hasta la exaltación.
-* **Orden:** Que todas tus cosas tengan un sitio, que todos tus asuntos tengan su momento.
-* **Silencio:** Solo di lo que pueda beneficiar a otros o a ti mismo, evita las conversaciones insignificantes.
-* **Determinación:** Resuélvete a realizar lo que deberías hacer. realiza sin fallos lo que resolviste.
-* **Frugalidad:** Solo gasta en lo que traiga un bien para otros o para ti.
-* **Diligencia:** no pierdas tiempo, ocúpate siempre en algo útil, corta todas las relaciones innecesarias.
-* **Sinceridad:** Usa siempre la verdad, no te dejes llevar por la vanidad, ni por el interés.
-* **Justicia:** No hagas a los demás lo que no quieres que te hagan a ti.
-* **Moderación:** No te excedas en nada.
-* **Pureza:** No toleres la falta de limpieza en el cuerpo, ropa o habitación.
-* **Tranquilidad:** No te molestes por nimiedades o por accidentes comunes o inevitables.
-* **Humildad:** No te jactes de tus logros ni te enorgullezcas de tus virtudes.
-* **Castidad:** No te entregues a los placeres de la carne, ni a los de la mente.
+- **Templanza:** No comer hasta la saciedad, no beber hasta la exaltación.
+- **Orden:** Que todas tus cosas tengan un sitio, que todos tus asuntos tengan su momento.
+- **Silencio:** Solo di lo que pueda beneficiar a otros o a ti mismo, evita las conversaciones insignificantes.
+- **Determinación:** Resuélvete a realizar lo que deberías hacer. realiza sin fallos lo que resolviste.
+- **Frugalidad:** Solo gasta en lo que traiga un bien para otros o para ti.
+- **Diligencia:** no pierdas tiempo, ocúpate siempre en algo útil, corta todas las relaciones innecesarias.
+- **Sinceridad:** Usa siempre la verdad, no te dejes llevar por la vanidad, ni por el interés.
+- **Justicia:** No hagas a los demás lo que no quieres que te hagan a ti.
+- **Moderación:** No te excedas en nada.
+- **Pureza:** No toleres la falta de limpieza en el cuerpo, ropa o habitación.
+- **Tranquilidad:** No te molestes por nimiedades o por accidentes comunes o inevitables.
+- **Humildad:** No te jactes de tus logros ni te enorgullezcas de tus virtudes.
+- **Castidad:** No te entregues a los placeres de la carne, ni a los de la mente.
 
 > El método de Franklin es un método para potenciar nuestras virtudes y mejorar nuestras debilidades.
 
@@ -129,12 +129,11 @@ Nuestra zona de confort es el lugar o situación en la que nos sentimos cómodos
 
 > Salir de nuestra zona de confort nos permite crecer, aprender y madurar.
 
-
 #### 12º estación > Timing. Tomar cada tren a tiempo
 
 ¿Sientes que te falta tiempo en tu día a día? Quizás no te estás gestionando bien tu tiempo. Para intentar desechar las tareas que menos nos aportan en nuestro día a día podemos usar una matriz de Covey, en la que se clasifican las tareas en función de su importancia y urgencia. Nos haremos dos preguntas básicas con las que podremos clasificar nuestras tareas:
 
-1. ¿Es una tarea urgente? 
+1. ¿Es una tarea urgente?
 2. ¿Es una tarea importante?
 
 Las tareas que se encuentran en la esquina superior derecha son las que debemos de hacer primero, ya que son las que más nos aportan y son las que más nos preocupan. Las tareas que se encuentran en la esquina inferior izquierda son las que debemos de delegar o eliminar, ya que son las que menos nos aportan y son las que menos nos preocupan.
@@ -143,7 +142,7 @@ Una vez identificadas las tareas más importantes y urgentes, debemos de planifi
 
 > Para gestionar mejor nuestras tareas debemos identificar las tareas más importantes y urgentes, planificarlas en nuestro calendario y evitar las distracciones.
 
-#### 13º estación > Pareto. La regla del 80/20 
+#### 13º estación > Pareto. La regla del 80/20
 
 Esta regla fue descubierta por Vilfredo Pareto, un economista italiano, que observó que el 80% de la tierra en Italia era propiedad del 20% de la población. Esta regla se puede aplicar a cualquier ámbito de la vida, como por ejemplo, en el trabajo, en el deporte, en la salud, etc. En el trabajo, el 80% de los resultados se consiguen con el 20% de las acciones. En el deporte, el 80% de los resultados se consiguen con el 20% de los entrenamientos. En la salud, el 80% de los resultados se consiguen con el 20% de los hábitos saludables.
 
@@ -155,7 +154,6 @@ Pasos a seguir para aplicar la regla del 80/20:
 4. Eliminar las acciones que te están dando los peores resultados.
 
 > La regla del 80/20 nos permite identificar las acciones que nos están dando los mejores resultados y eliminar las acciones que nos están dando los peores resultados.
-
 
 #### 14º estación > El poder de las palabras. Pon nombres memorables a tus proyectos
 
@@ -181,7 +179,6 @@ Según unos estudios de la universidad de Shouthampton, la nostalgia puede ser u
 
 > La nostalgia puede ser una de las emociones más positivas que podemos experimentar, ya que potencia nuestra creatividad y nos ayuda a recordar momentos felices de nuestra vida, lo que puede mejorar nuestro estado de ánimo.
 
-
 #### 17º estación > Amistad. Recupera tu mapa de amigos
 
 Cuando pasamos tiempo con nuestros amigos nos contagiamos de sus energías y sus vibras, esto puede ser algo muy bueno o muy malo. Si nuestro círculo de amigos es positivo nos contagiaremos de buenas vibras, optimismo, y serán un apoyo en nuestra vida. Si nuestro círculo de amigos es negativo nos contagiaremos de malas vibras, pesimismo, y serán un lastre en nuestra vida.
@@ -198,13 +195,11 @@ A lo largo de nuestra vida ocurren eventos y tomamos decisiones que marcan un pu
 >
 > -- <cite>Sören Kierkegaard</cite>
 
-
 #### 19º estación > Analógico. Como hacer una dieta digital
 
 #### 20º estación > Slow life. Caminando lentamente se llega lejos
 
 ### Viaje nuestro presente
-
 
 #### 21º estación > Presencia. Quien apunta a dos patos no caza a ninguno
 
@@ -232,7 +227,7 @@ A lo largo de nuestra vida ocurren eventos y tomamos decisiones que marcan un pu
 
 #### 33º estación > Kaizen. Cambiar a mejor continuamente
 
-#### 34º estación > Kyudo. El arte del tiro con arco  
+#### 34º estación > Kyudo. El arte del tiro con arco
 
 #### 35º estación > Toshogu. La enseñanza de los tres monos
 
@@ -240,6 +235,6 @@ A lo largo de nuestra vida ocurren eventos y tomamos decisiones que marcan un pu
 
 <div id="midu"></div>
 
-[1]: Streamer que crea, mayormente, contenido sobre desarrollo web. [Youtube](https://www.youtube.com/midudev), [Twitter](https://twitter.com/midudev?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Twitch](https://www.twitch.tv/midudev?lang=es), [Instagram](https://www.instagram.com/midu.dev/), [Blog](https://midu.dev/). 
+[1]: Streamer que crea, mayormente, contenido sobre desarrollo web. [Youtube](https://www.youtube.com/midudev), [Twitter](https://twitter.com/midudev?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Twitch](https://www.twitch.tv/midudev?lang=es), [Instagram](https://www.instagram.com/midu.dev/), [Blog](https://midu.dev/).
 
 <div id="Keith_Richards"></div>[2]: Guitarrista, cantante, compositor, productor y actor británico. Reconocido mundialmente por ser fundador (junto a Brian Jones y Mick Jagger) de la banda de rock The Rolling Stones
