@@ -23,7 +23,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Javodev</h1>
+      <p>
+        Este blog intento organizar y compartir mis conocimientos sobre disintos
+        temas de preogramación y otros temas variados.
+      </p>
+      <!-- <h1>Mingalaba</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -54,12 +59,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         >
           README
         </LinkButton> for more info.
-      </p>
+      </p> -->
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Redes Sociales:</div>
             <Socials />
           </div>
         )
@@ -106,7 +111,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </ul>
       <div class="all-posts-btn-wrapper">
         <LinkButton href="/posts">
-          All Posts
+          Todos los posts
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
               d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
