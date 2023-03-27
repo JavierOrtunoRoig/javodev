@@ -2,6 +2,9 @@
   "name": "javodev",
   "version": "1.0.0",
   "private": false,
+  "os": [
+    "windows"
+  ],
   "scripts": {
     "dev": "astro check --watch & astro dev",
     "start": "astro dev",
